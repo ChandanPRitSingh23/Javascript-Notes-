@@ -106,3 +106,11 @@ console.log(age >= 18 || hasPermission); //true
 let isLoggedIn = true;
 
 console.log(!isLoggedIn); //false
+
+
+//? Ternary Operators( three operants pr kaam krta h)
+//syntax == condition?true output:false output 
+ let age =25;
+ let result = age > 18 ? "adult" : "not adult";
+ console.log(result) //adult
+ 
