@@ -1,3 +1,6 @@
-let age = 45;
+let obj ={
+    item: "pen",
+    price: 10,
 
-console.log(age);
+};
+console.log("the cost of" ,obj.item," is",obj.price);
