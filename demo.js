@@ -1,6 +1,2 @@
-let obj ={
-    item: "pen",
-    price: 10,
-
-};
-console.log("the cost of" ,obj.item," is",obj.price);
+let sum = `sum of the numbers is ${1+2+3}`;
+console.log(sum)

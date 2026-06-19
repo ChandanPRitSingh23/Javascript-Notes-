@@ -19,8 +19,25 @@ let obj ={
 
 };
 console.log("the cost of" ,obj.item," is",obj.price);
+//or
+
+//template literals
+// template literals ke liye commas use krne hoge jisko bolte ha backtick(`);
+// in mac the command is option+`
+let output = `the cost of ${obj.item} is ${obj.price} rupees`;
+
+
+
+
 
 // the cost of pen is 10
 
 // if u want to acces any item 
 // simply use obj.item, obj.price depend on the name ,name may varies.
+
+
+let sum = `sum of the numbers is ${1+2+3}`;
+console.log(sum)
+
+
+// \n = second line se start krta ha likhna
