@@ -42,4 +42,28 @@ console.log(str.concat(str1)); //Chandanprit
 console.log(str1.concat(str)); //pritChandan
 
 
+//? str.replace(searchval,newVal)
+// It is used to replace a word or character in a string.
+let str = "I love Java";
+let result = str.replace("Java", "JavaScript");
 
+console.log(result);
+
+//replace a character
+
+let str = "Hello";
+let result = str.replace("H", "Y");
+
+console.log(result);
+
+//* its does not change the original string
+
+
+
+//? str.charAt(idx)
+// It is used to get the character at a specific index of a string.
+// Give me the character at this position.
+
+let str = "JavaScript";
+
+console.log(str.charAt(0));
